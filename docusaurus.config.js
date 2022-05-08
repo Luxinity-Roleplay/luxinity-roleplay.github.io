@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Luxinity',
-  tagline: 'Official Luxinity Roleplay Wiki',
+  tagline: 'Luxinity Roleplay is a SA:MP Server Based in 2022 Los Santos & Red Country.',
   url: 'https://luxinity-roleplay.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -60,7 +60,7 @@ const config = {
         title: 'Luxinity',
         logo: {
           alt: 'Pico Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
