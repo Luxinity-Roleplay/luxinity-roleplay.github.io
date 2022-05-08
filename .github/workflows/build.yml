@@ -42,7 +42,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/build
+          publish_dir: ./build
           full_commit_message: ${{ github.event.head_commit.message }}
       
       - name: Wait for Docs to be Deployed to GH Pages
