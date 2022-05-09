@@ -2,3 +2,7 @@
 	path = docs
 	url = https://github.com/Luxinity-Roleplay/docs
 	branch = docs
+[submodule "blog"]
+	path = blog
+	url = https://github.com/Luxinity-Roleplay/docs
+	branch = blog
