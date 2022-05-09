@@ -17,9 +17,9 @@ jobs:
         with:
           submodules: 'true'
 
-      - name: Update Submodules to latest
+      - name: Update Submodules to
         run: |
-          git pull --recurse-submodules
+          git submodule update --init --recursive --remote
 
       - name: Setup Node
         uses: actions/setup-node@v2
