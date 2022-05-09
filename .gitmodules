@@ -6,3 +6,7 @@
 	path = blog
 	url = https://github.com/Luxinity-Roleplay/docs
 	branch = blog
+[submodule "static"]
+	path = static
+	url = https://github.com/Luxinity-Roleplay/docs
+	branch = static
