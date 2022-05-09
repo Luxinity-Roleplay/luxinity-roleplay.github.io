@@ -67,7 +67,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Wiki',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -93,7 +93,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Wiki',
                 to: '/docs/intro',
               },
             ],
@@ -121,7 +121,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Luxinity. Built with Docusaurus.`,
+        copyright: `Copyright © 2021-present, Luxinity.`,
       },
       prism: {
         theme: lightCodeTheme,
