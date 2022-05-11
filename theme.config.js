@@ -4,7 +4,6 @@ export default {
   github: 'https://github.com/Luxinity-Roleplay/luxinity-roleplay.github.io',
   docsRepositoryBase: 'https://github.com/Luxinity-Roleplay/luxinity-roleplay.github.io/blob/master',
   titleSuffix: ' – Luxinity',
-  customSearch: <Docsearch />,
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Luxinity</span>
