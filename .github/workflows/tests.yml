@@ -6,19 +6,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-docs:
-    name: Build (Test)
+  test:
+    name: Build Test
     runs-on: ubuntu-latest
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout Actions
         uses: actions/checkout@v2
-        with:
-          submodules: 'true'
-          
-      - run: |
-          git submodule update --init --recursive --remote
 
       - name: Setup Node
         uses: actions/setup-node@v2
@@ -26,7 +19,7 @@ jobs:
           node-version: '14'
 
       - name: Install Dependencies
-        run: yarn install 
+        run: yarn install
 
       - name: Build
         run: yarn build

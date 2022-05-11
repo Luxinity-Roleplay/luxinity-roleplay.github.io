@@ -1,40 +1,32 @@
 {
-  "name": "luxinity-website",
-  "version": "0.0.0",
-  "private": true,
+  "name": "luxinity-wiki",
+  "version": "0.0.1",
+  "description": "Luxinity Roleplay Official Website and Wiki",
+  "main": "index.js",
   "scripts": {
-    "docusaurus": "docusaurus",
-    "dev": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "clear": "docusaurus clear",
-    "serve": "docusaurus serve",
-    "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "dev:next": "next"
   },
+  "author": "mclemie",
+  "license": "MIT",
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.20",
-    "@docusaurus/preset-classic": "2.0.0-beta.20",
-    "@mdx-js/react": "^1.6.22",
-    "clsx": "^1.1.1",
-    "prism-react-renderer": "^1.3.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "^12.1.0",
+    "nextra": "^1.1.0",
+    "nextra-theme-docs": "^1.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.20"
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "prettier": "^2.0.5"
   },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }

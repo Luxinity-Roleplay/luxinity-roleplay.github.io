@@ -1,41 +1,22 @@
-# Website
+# [Nextra](https://nextra.vercel.app)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+_Warning: this project is not production ready, API might change without notice._
 
-### Installation
+[![](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra&c=1)
 
-```
-$ yarn
-```
+**Nextra** is a [Next.js](https://nextjs.org) and [MDX](https://mdxjs.com) powered, no-code site generator.
 
-### Local Development
+![](/public/demo.png)
 
-```
-$ yarn start
-```
+## Development
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+The code of Nextra is under the [`core`](https://github.com/shuding/nextra/tree/core) branch.
 
-### Build
+## Themes
 
-```
-$ yarn build
-```
+- [nextra-theme-docs](https://github.com/vercel/swr-site) ([demo](https://swr.vercel.app))
+- [nextra-theme-blog](https://github.com/shuding/site) ([demo](https://shud.in))
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Created by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). Released under the MIT license.

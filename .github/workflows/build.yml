@@ -1,4 +1,5 @@
-name: Build Documentations
+name: Build
+
 on:
   push:
     branches:
@@ -6,19 +7,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-docs:
-    name: Build Documentations
+  build:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout Actions
-        uses: actions/checkout@v2
-        with:
-          submodules: 'true'
+        uses: actions/checkout@v3
 
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: '14'
 
@@ -30,30 +28,30 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-website-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-website-
-
-      - run: yarn install --frozen-lockfile
+            ${{ runner.os }}-yarn-
+      - name: Install/Update Dependencies
+        run: yarn install --frozen-lockfile
 
       - name: Build
-        run: yarn build
+        run: yarn build && yarn export
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./out
           full_commit_message: ${{ github.event.head_commit.message }}
-      
+
       - name: Wait for Docs to be Deployed to GH Pages
         run: sleep 45s
         shell: bash
 
       - name: Get the content of config.json as config
         id: algolia_config
-        run: echo "::set-output name=config::$(cat ./config.json | jq -r tostring)"
+        run: echo "::set-output name=config::$(cat ./algolia.config.json | jq -r tostring)"
 
       - name: Push indices to Algolia
         uses: signcl/docsearch-scraper-action@master
