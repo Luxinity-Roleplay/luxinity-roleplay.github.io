@@ -1,5 +1,7 @@
 {
-  "index": "Introduction",
-  "get-started": "Get Started",
-  "advanced": "Advanced"
+  "index": "Welcome!",
+  "intro": "Pengenalan",
+  "rules": "Server Rules",
+  "key-and-command": "Key and Command",
+  "howto-guide": "How-To Guide"
 }
