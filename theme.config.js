@@ -1,5 +1,3 @@
-import Docsearch from './components/docsearch'
-
 export default {
   github: 'https://github.com/Luxinity-Roleplay/luxinity-roleplay.github.io',
   docsRepositoryBase: 'https://github.com/Luxinity-Roleplay/luxinity-roleplay.github.io/blob/master',
