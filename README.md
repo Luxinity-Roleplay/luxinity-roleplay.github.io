@@ -1,22 +1,52 @@
-# [Nextra](https://nextra.vercel.app)
+<p align="center">
+  <a aria-label="LX Logo" href="https://luxinity-roleplay.github.io">
+    <img src="https://media.discordapp.net/attachments/846736449705082920/967445380751056896/LX.png?width=468&height=468" width="300" />
+  </a>
+</p>
 
-_Warning: this project is not production ready, API might change without notice._
+<p align="center">
+  <em>Luxinity Roleplay</em>
+</p>
 
-[![](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra&c=1)
+<p align="center">
+  <a
+    href="https://luxinity-roleplay.github.io"
+  >Wiki</a>
+  |
+  <a
+    href="https://discord.gg/U7nXFpDrXd"
+  >Discord</a>
+</p>
 
-**Nextra** is a [Next.js](https://nextjs.org) and [MDX](https://mdxjs.com) powered, no-code site generator.
+<p align="center">
+  Luxinity Roleplay is a SA:MP Server Based in 2022 Los Santos & Red Country.
+</p>
 
-![](/public/demo.png)
+<p align="center">
+  <a href="https://luxinity.eu.org">Luxinity Roleplay</a>
+</p>
+
+<hr>
 
 ## Development
 
-The code of Nextra is under the [`core`](https://github.com/shuding/nextra/tree/core) branch.
+### Requirements:
 
-## Themes
+- Git
+- Node.js
+- npm or yarn (recommended)
 
-- [nextra-theme-docs](https://github.com/vercel/swr-site) ([demo](https://swr.vercel.app))
-- [nextra-theme-blog](https://github.com/shuding/site) ([demo](https://shud.in))
+### Setup
 
----
+```bash
+# clone the project
+git clone https://github.com/Luxinity-Roleplay/luxinity-roleplay.github.io.git
+# Move into the directory
+cd luxinity-roleplay.github.io
+# Install the dependencies
+yarn install
+# Start the server
+yarn start
+```
 
-Created by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). Released under the MIT license.
+By default the development server will run on `http://localhost:3000`.
