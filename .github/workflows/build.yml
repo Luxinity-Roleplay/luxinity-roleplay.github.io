@@ -35,7 +35,7 @@ jobs:
       - name: Install/Update Dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Lint Next.js
+      - name: Lint
         run: yarn lint
 
       - name: Build
