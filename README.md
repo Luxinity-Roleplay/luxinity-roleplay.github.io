@@ -1,5 +1,5 @@
 <p align="center">
-  <a aria-label="LX Logo" href="https://luxinity-roleplay.github.io">
+  <a aria-label="LX Logo" href="https://www.luxinity.eu.org">
     <img src="https://media.discordapp.net/attachments/846736449705082920/967445380751056896/LX.png?width=468&height=468" width="300" />
   </a>
 </p>
@@ -10,7 +10,7 @@
 
 <p align="center">
   <a
-    href="https://luxinity-roleplay.github.io"
+    href="https://www.luxinity.eu.org"
   >Wiki</a>
   |
   <a
@@ -40,7 +40,7 @@
 
 ```bash
 # clone the project
-git clone https://github.com/Luxinity-Roleplay/luxinity-roleplay.github.io.git
+git clone https://github.com/Luxinity-Roleplay/wiki.git
 # Move into the directory
 cd luxinity-roleplay.github.io
 # Install the dependencies

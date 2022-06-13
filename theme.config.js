@@ -1,6 +1,6 @@
 export default {
-  github: 'https://github.com/Luxinity-Roleplay/luxinity-roleplay.github.io',
-  docsRepositoryBase: 'https://github.com/Luxinity-Roleplay/luxinity-roleplay.github.io/blob/master',
+  github: 'https://github.com/Luxinity-Roleplay/wiki',
+  docsRepositoryBase: 'https://github.com/Luxinity-Roleplay/wiki/blob/master',
   titleSuffix: ' – Luxinity',
   logo: (
     <>

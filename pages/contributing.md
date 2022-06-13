@@ -1,11 +1,10 @@
 # How to contribute ?
 
-Anda dapat [fork repository ini terlebih dahulu](https://github.com/Luxinity-Roleplay/luxinity-roleplay.github.io/fork), kemudian submit pull request anda [melalui menu pull request](https://github.com/Luxinity-Roleplay/docs/pulls).
+Anda dapat [fork repository ini terlebih dahulu](https://github.com/Luxinity-Roleplay/wiki/fork), kemudian submit pull request anda [melalui menu pull request](https://github.com/Luxinity-Roleplay/docs/pulls).
 
 Jika anda menemukan typo/minor bug anda bisa submit issue melalui [menu issues](https://github.com/Luxinity-Roleplay/docs/issues).
 
-Kepada [semua contributors](https://github.com/Luxinity-Roleplay/luxinity-roleplay.github.io/graphs/contributors), terimakasih telah membantu mengembangkan wiki untuk para pemula.
-
+Kepada [semua contributors](https://github.com/Luxinity-Roleplay/wiki/graphs/contributors), terimakasih telah membantu mengembangkan wiki untuk para pemula.
 
 ## Contributor Tips & Tricks
 
@@ -22,7 +21,7 @@ Jangan menggunakan link yang absolut. lampirkanlah link relative nya.
 - ❌
 
   ```md
-  anda dapat lihat selengkapnya di [rules](https://luxinity-roleplay.github.io/rules)
+  anda dapat lihat selengkapnya di [rules](https://www.luxinity.eu.org/rules)
   ```
 
 - ✔
@@ -60,24 +59,24 @@ Jika ada tabel yang memiliki heading/judul, beri heading/judul diatasnya:
 - ❌
 
   ```md
-  |         |                                      |
-  | ------- | ------------------------------------ |
-  | Health  | Engine Status                        |
-  | 650     | Undamaged                            |
-  | 650-550 | White Smoke                          |
-  | 550-390 | Grey Smoke                           |
-  | 390-250 | Black Smoke                          |
-  | < 250   | On fire (will explode seconds later) |
+  |         |               |
+  | ------- | ------------- |
+  | Health  | Engine Status |
+  | 650     | Undamaged     |
+  | 650-550 | White Smoke   |
+  | 550-390 | Grey Smoke    |
+  | 390-250 | Black Smoke   |
+  | < 250   | On fire       |
   ```
 
 - ✔
-
   ```md
-  | Health  | Engine Status                        |
-  | ------- | ------------------------------------ |
-  | 650     | Undamaged                            |
-  | 650-550 | White Smoke                          |
-  | 550-390 | Grey Smoke                           |
-  | 390-250 | Black Smoke                          |
-  | < 250   | On fire (will explode seconds later) |
+  | Health  | Engine Status |
+  | ------- | ------------- |
+  | Health  | Engine Status |
+  | 650     | Undamaged     |
+  | 650-550 | White Smoke   |
+  | 550-390 | Grey Smoke    |
+  | 390-250 | Black Smoke   |
+  | < 250   | On fire       |
   ```
