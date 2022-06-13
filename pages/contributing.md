@@ -1,8 +1,8 @@
 # How to contribute ?
 
-Anda dapat [fork repository ini terlebih dahulu](https://github.com/Luxinity-Roleplay/wiki/fork), kemudian submit pull request anda [melalui menu pull request](https://github.com/Luxinity-Roleplay/docs/pulls).
+Anda dapat [fork repository ini terlebih dahulu](https://github.com/Luxinity-Roleplay/wiki/fork), kemudian submit pull request anda [melalui menu pull request](https://github.com/Luxinity-Roleplay/wiki/pulls).
 
-Jika anda menemukan typo/minor bug anda bisa submit issue melalui [menu issues](https://github.com/Luxinity-Roleplay/docs/issues).
+Jika anda menemukan typo/minor bug anda bisa submit issue melalui [menu issues](https://github.com/Luxinity-Roleplay/wiki/issues).
 
 Kepada [semua contributors](https://github.com/Luxinity-Roleplay/wiki/graphs/contributors), terimakasih telah membantu mengembangkan wiki untuk para pemula.
 
@@ -58,7 +58,6 @@ Jika ada tabel yang memiliki heading/judul, beri heading/judul diatasnya:
 
 - ❌
 
-  ```md
   |         |               |
   | ------- | ------------- |
   | Health  | Engine Status |
@@ -67,10 +66,9 @@ Jika ada tabel yang memiliki heading/judul, beri heading/judul diatasnya:
   | 550-390 | Grey Smoke    |
   | 390-250 | Black Smoke   |
   | < 250   | On fire       |
-  ```
 
 - ✔
-  ```md
+
   | Health  | Engine Status |
   | ------- | ------------- |
   | Health  | Engine Status |
@@ -79,4 +77,3 @@ Jika ada tabel yang memiliki heading/judul, beri heading/judul diatasnya:
   | 550-390 | Grey Smoke    |
   | 390-250 | Black Smoke   |
   | < 250   | On fire       |
-  ```
