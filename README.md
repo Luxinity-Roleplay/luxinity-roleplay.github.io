@@ -42,7 +42,7 @@
 # clone the project
 git clone https://github.com/Luxinity-Roleplay/wiki.git
 # Move into the directory
-cd luxinity-roleplay.github.io
+cd wiki
 # Install the dependencies
 yarn install
 # Start the server
