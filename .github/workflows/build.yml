@@ -2,8 +2,6 @@ name: Deploy to Vercel
 on:
   push:
     branches: [master]
-  schedule:
-    - cron: "* * 1 1-12 *"
   workflow_dispatch:
 
 jobs:
